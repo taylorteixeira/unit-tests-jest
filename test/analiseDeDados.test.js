@@ -11,6 +11,7 @@ describe('AnaliseDeDados', () => {
       expect(analise.calcularMedia()).toBe(30);
     });
   
+    
     test('Deve calcular a mediana corretamente', () => {
       expect(analise.calcularMediana()).toBe(30);
     });
